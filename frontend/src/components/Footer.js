@@ -9,6 +9,12 @@ function Footer() {
                         Copyright &copy; Family Mart
                     </Col>
                 </Row>
+                <Row>
+                    <Col className="text-center">
+                        Contact: sriginms1@gmail.com
+                    </Col>
+                </Row>
+
             </Container>
         </footer>
     )
