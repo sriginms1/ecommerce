@@ -15,7 +15,6 @@ function ProductScreen() {
         async function fetchProduct() {
             try{
                 const response = await axios.get(`/api/product/${params.id}/`)
-                console.log(response)
                 setProduct(response.data)
             }
             catch (error) {
