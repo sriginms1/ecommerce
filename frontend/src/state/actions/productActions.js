@@ -5,7 +5,7 @@ import {
     PRODUCT_DETAILS_FAIL,
     PRODUCT_DETAILS_REQUEST,
     PRODUCT_DETAILS_SUCCESS
-} from '../../constants/constants'
+} from '../../constants/productConstants'
 
 import axios from 'axios'
 
