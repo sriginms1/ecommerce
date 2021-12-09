@@ -54,7 +54,7 @@ function CartScreen() {
                                             <Image src={item.image} alt={item.name} fluid rounded />
                                         </Col>
                                         <Col md={3}>
-                                            <NavLink to={`/product/${item.product}`}>{item.name}</NavLink>
+                                            <NavLink to={`/products/${item.product}`}>{item.name}</NavLink>
                                         </Col>
 
                                         <Col md={2}>
